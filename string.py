@@ -1,14 +1,18 @@
 # creating string
 message = "Hello "
 name = 'You'
+
 # printing message
 print(f'printing message: {message}')
+
 # finding length of message
 msg_len = len(message)
 print(f'length of message: {msg_len}')
+
 # slicing message
 msg_slicing = message[:4]
 print(f'slicing message: {msg_slicing}')
+
 # printing the letter by passing index
 chr_of_specific_index = message[1]
 print(f'printing letter of a particular index: {chr_of_specific_index}')
@@ -22,6 +26,7 @@ print(cnct_string)
 # 2 method>2
 frmt_string = '{0} {1}. Welcome!'.format(name, message) #here format takes a Tuple
 print(frmt_string)
+
 # STRING METHODS
 #1  lower case
 lwr_case = message.lower()
@@ -49,6 +54,7 @@ print(all_attrs[:10])
 
 # help about string object
 print(help(str))
+
 # help for a SPECIFIC ATTRIBUTE
 # I HAVE TAKEN lower
 print(help(str.lower))
